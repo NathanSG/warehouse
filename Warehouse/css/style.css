@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+header .navbar{
+	background: #ffffff;
+	border: none;
+}
+.navbar-brand img{
+	width: 200px;
+}
+header .navbar-default .navbar-nav > li{
+	padding-top: 10px;
+}
+header .navbar-default .navbar-nav > li > a{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000000;
+}
+header .navbar-default .navbar-nav > li > a:focus,
+header .navbar-default .navbar-nav > li > a:hover{
+	color: #3B5998;
+}
+header .form-group{
+	padding-top: 10px;
+}
+header .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 16px;
+  text-transform: uppercase;
+}
+header .form-control::-moz-placeholder { /* Firefox 19+ */
+  font-size: 16px;
+  text-transform: uppercase;
+}
+header .form-control:-ms-input-placeholder { /* IE 10+ */
+  font-size: 16px;
+  text-transform: uppercase;
+}
+header .form-control:-moz-placeholder { /* Firefox 18- */
+  font-size: 16px;
+  text-transform: uppercase;
+}
+header .navbar-default .form-control {
+    border-color: transparent;
+    box-shadow: unset;
+    text-align: right;
+}
+header .navbar-default .btn-default{
+	margin-top: 5px;
+}
+header .navbar-default .form-control:focus{
+	border-color: #ccc;
+	box-shadow: inherit;
+	text-align: left;
+}
+header .navbar-default .btn-default{
+	border-color: transparent;
+}
+header .navbar-default .navbar-toggle,
+header .navbar-default .navbar-toggle:focus,
+header .navbar-default .navbar-toggle:active{
+	background: #ffffff;
+	border-color: transparent;
+}
+header .navbar-default .navbar-toggle:hover{
+	background: #ffffff;
+	border-color: transparent;
+}
+header .navbar-default .navbar-collapse, 
+header .navbar-default .navbar-form{
+	border-color: transparent;
+}
+header .navbar-default .navbar-toggle:hover .icon-bar{
+	background: #3B5998;
+}
+header .navbar-default .navbar-toggle .icon-bar{
+	background: #000000;
+}
+.title{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+	margin-left: 0px;
+	margin-right: -14px;
+	overflow: hidden;
+	width: 100%;
+}
+.product-wrapper img{
+	width:100%;
+}
+.product-wrapper {
+	padding: 20px;
+}
+#products-wrapper{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#products-wrapper .slick-arrow {
+    top: 35%;
+    color: #333333;
+    font-size: 25px;
+    position: absolute;
+    cursor: pointer;
+}
+#products-wrapper .slick-slide{
+	height: auto;
+}
+
+#products-wrapper .glyphicon-menu-left{
+	left: 10px;
+}
+#products-wrapper .glyphicon-menu-right{
+	right: 10px;
+}
+.name{
+	margin: 10px 0 5px;
+}
+.name a{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+.navbar-header .mobile{
+	display: block;
+	float: left;
+	width: 20%;
+	margin: 0 auto;
+	padding: 20px;
+}
+.navbar-header li.mobile{
+	padding: 12px;
+}
+.navbar-header .mobile img{
+	height: 30px;
+}
+@media screen and (max-width: 1024px){
+	header .navbar-default .navbar-nav > li > a {
+	    padding: 8px 7px;
+	    font-size: 14px;
+	}
+	.navbar-brand img {
+	    width: 170px;
+	    margin-top: -2px;
+	}
+	header .form-group {
+	    padding-top: 5px;
+	}
+	header .navbar-default .form-control{
+		width: 100px;
+	}
+}
+@media screen and (min-width: 767px){
+	.navbar-header .mobile{
+		display: none;
+	}
+}
+@media screen and (max-width: 767px){
+	header{
+		padding: 0 20px;
+	}
+	header .navbar-right{
+		display: none;
+	}
+	header .navbar-header .navbar-toggle{
+		float: left;
+	}
+	header .navbar-brand{
+		display: none;
+	}
+}
